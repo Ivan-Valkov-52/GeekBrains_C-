@@ -2,7 +2,7 @@
 // Console.SetCursorPosition(10,4);
 // Console.WriteLine("+");
 
-int xa = 15, ya = 0, xb = 0, yb = 10, xc = 30, yc = 10;
+int xa = 20, ya = 1, xb = 1, yb = 15, xc = 40, yc = 15;
 
 Console.SetCursorPosition(xa, ya);
 Console.WriteLine("+");
@@ -14,7 +14,7 @@ Console.WriteLine("+");
 int count = 0;
 int x = xa, y = ya;
 
-while (count < 1000)
+while (count < 10000)
 {
     int pointsTriangle = new Random().Next(0, 3);
     if (pointsTriangle == 0)
